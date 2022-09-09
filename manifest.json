@@ -1,0 +1,14 @@
+{
+  "name": "Wordle Helper",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Helps solve the wordle word.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "index.js"
+  }
+}
